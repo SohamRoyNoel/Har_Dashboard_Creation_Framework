@@ -9,7 +9,7 @@
         </div>
     </div>
     <script src='https://code.jquery.com/jquery-2.2.3.min.js'></script>
-    <script src="js/modernizr.js"></script>
+    <script src="E:/ME as QA/DashBoard_FrameWork/Dynamic_DashBoard_Framework/Archive/js/modernizr.js"></script>
     <script>
         $(window).load(function () {
             $(".se-pre-con").fadeOut("slow");;
