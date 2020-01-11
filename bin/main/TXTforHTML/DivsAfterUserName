@@ -1,0 +1,16 @@
+</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="outer-w3-agile col-xl">
+                        <div class="stat-grid p-3 d-flex align-items-center justify-content-between bg-primary">
+                            <div class="s-l">
+                                <h5>Number Of Generated Har Files</h5>
+                                </div>
+                            <div class="s-r">
+                                <h6>

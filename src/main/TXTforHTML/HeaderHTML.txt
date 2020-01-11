@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Performance Test Analysis | Home :: John Hancock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="E:\ME as QA\DashBoard_FrameWork\Dynamic_DashBoard_Framework\Archive\css\style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="E:\ME as QA\DashBoard_FrameWork\Dynamic_DashBoard_Framework\Archive\css\style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-6/css/all.css" integrity="sha256-bBirBnOWAZYfE2y0+BsUXHG27PmvH6W/7JhiLgPFOFU=" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="se-pre-con"></div>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h1>
+                    <a href="index.html">&nbspReport</a>
+                </h1>
+                <span>R</span>
+            </div>
+            <div class="profile-bg"></div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html">
+                        <i class="fas fa-th-large"></i>
+                        Dashboard
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+            <nav class="navbar navbar-default mb-xl-5 mb-4">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    
+                    <ul class="top-icons-agileits-w3layouts float-right">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <i class="far fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu drop-3">
+                                <div class="profile d-flex mr-o">
+                                    <div class="profile-l align-self-center">
+                                        <img src="E:\ME as QA\DashBoard_FrameWork\Dynamic_DashBoard_Framework\Archive\images\profile.png" class="img-fluid mb-3" alt="Responsive image">
+                                    </div>
+                                    <div class="profile-r align-self-center">

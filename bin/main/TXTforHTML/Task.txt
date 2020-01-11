@@ -1,0 +1,10 @@
+<i class="far fa-smile"></i>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="stat-grid p-3 mt-3 d-flex align-items-center justify-content-between bg-danger">
+                            <div class="s-l">
+                                <h5>Tasks Performed Successfully</h5>
+                                 </div>
+                            <div class="s-r">
+                                <h6>
