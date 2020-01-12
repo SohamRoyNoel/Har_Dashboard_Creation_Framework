@@ -16,7 +16,7 @@ public class BarChartGenerationHelperClass {
 		String barValueTable = "[['Element', 'Performance'],['A', "+ pulledElements.get("A") +"],['B', "+pulledElements.get("B")+"],['C', "+pulledElements.get("C")+"],['D', "+pulledElements.get("D")+"],['E', "+pulledElements.get("E")+"],['F', "+pulledElements.get("F")+"],['G', "+pulledElements.get("G")+"],['H', "+pulledElements.get("H")+"],['I', "+pulledElements.get("I")+"]]";
 		AppendStringToHTML.AddStringToHTML(barValueTable);
 		createHtmlHelper.appendTXTtoHTML(ResourcePath.elevenBarChart2);
-		String identifyElementID = "var chart = new google.charts.Bar(document.getElementById('"+ fileName +"'));";
+		String identifyElementID = "var chart = new google.visualization.BarChart(document.getElementById('"+ fileName +"'));";
 		AppendStringToHTML.AddStringToHTML(identifyElementID);
 		createHtmlHelper.appendTXTtoHTML(ResourcePath.elevenBarChart4);
 		String analysisFor = "<h4 class='tittle-w3-agileits mb-4'> Deatiled Analysis For "+ fileName +" </h4>";
@@ -27,3 +27,6 @@ public class BarChartGenerationHelperClass {
 	}
 	
 }
+
+// Column Chart : identifyElementID
+// String identifyElementID = "var chart = new google.charts.Bar(document.getElementById('"+ fileName +"'));";

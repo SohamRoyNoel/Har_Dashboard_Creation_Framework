@@ -1,13 +1,16 @@
 );
 
       var options = {
+        'width':2500,
+        'is3D':true,
         hAxis: {
-          title: 'Total Population',
+          title: 'Elements',
           minValue: 0
         },
         vAxis: {
-          title: 'City'
-        }
+          title: 'Performance'
+        },
+        colors: ['red','green']
       };
       
       

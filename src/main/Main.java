@@ -24,7 +24,7 @@ public class Main {
 		int numberOfIteration = 3; // Determine iteration - get The count of generated HAR files from the folder
 		String generateHTML_iterationNumber = String.valueOf(numberOfIteration)+"&nbsp";
 		AppendStringToHTML.AddStringToHTML(generateHTML_iterationNumber);
-//		
+
 //		// 2nd card
 		createHtmlHelper.appendTXTtoHTML(ResourcePath.threeIteratableFiles);
 		AppendStringToHTML.AddStringToHTML(generateHTML_iterationNumber);
