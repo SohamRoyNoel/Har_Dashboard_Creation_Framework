@@ -43,6 +43,17 @@ public class DataDictionary {
 		valueFromEachOfThoseNineFields.put("H", 88);
 		valueFromEachOfThoseNineFields.put("I", 69);
 		fileNameConstrains.put("File3", valueFromEachOfThoseNineFields);
+		valueFromEachOfThoseNineFields=	new HashMap<String,Object>();
+		valueFromEachOfThoseNineFields.put("A", 150);
+		valueFromEachOfThoseNineFields.put("B", 70);
+		valueFromEachOfThoseNineFields.put("C", 50);
+		valueFromEachOfThoseNineFields.put("D", 2);
+		valueFromEachOfThoseNineFields.put("E", 1);
+		valueFromEachOfThoseNineFields.put("F", 9);
+		valueFromEachOfThoseNineFields.put("G", 19);
+		valueFromEachOfThoseNineFields.put("H", 88);
+		valueFromEachOfThoseNineFields.put("I", 20);
+		fileNameConstrains.put("File4", valueFromEachOfThoseNineFields);
 		
 		return fileNameConstrains;
 	}
