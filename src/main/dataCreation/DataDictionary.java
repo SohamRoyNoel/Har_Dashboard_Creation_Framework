@@ -2,12 +2,15 @@ package main.dataCreation;
 
 import java.util.HashMap;
 
+
+
 public class DataDictionary {
 
 	public static HashMap<String, HashMap<String,Object>> getDataDictionary() {
 		// Virtual Data Creation - Simulating The 9 Fields HAR value
-		HashMap<String,Object> valueFromEachOfThoseNineFields = new HashMap<String,Object>();
+		
 		HashMap<String, HashMap<String,Object>> fileNameConstrains = new HashMap<String,HashMap<String,Object>>();
+		HashMap<String,Object> valueFromEachOfThoseNineFields = new HashMap<String,Object>();
 		valueFromEachOfThoseNineFields.put("A", 10);
 		valueFromEachOfThoseNineFields.put("B", 20);
 		valueFromEachOfThoseNineFields.put("C", 30);
@@ -18,6 +21,7 @@ public class DataDictionary {
 		valueFromEachOfThoseNineFields.put("H", 100);
 		valueFromEachOfThoseNineFields.put("I", 66);
 		fileNameConstrains.put("File1", valueFromEachOfThoseNineFields);
+		valueFromEachOfThoseNineFields=	new HashMap<String,Object>();
 		valueFromEachOfThoseNineFields.put("A", 10);
 		valueFromEachOfThoseNineFields.put("B", 50);
 		valueFromEachOfThoseNineFields.put("C", 30);
@@ -28,6 +32,7 @@ public class DataDictionary {
 		valueFromEachOfThoseNineFields.put("H", 90);
 		valueFromEachOfThoseNineFields.put("I", 61);
 		fileNameConstrains.put("File2", valueFromEachOfThoseNineFields);
+		valueFromEachOfThoseNineFields=	new HashMap<String,Object>();
 		valueFromEachOfThoseNineFields.put("A", 10);
 		valueFromEachOfThoseNineFields.put("B", 60);
 		valueFromEachOfThoseNineFields.put("C", 30);

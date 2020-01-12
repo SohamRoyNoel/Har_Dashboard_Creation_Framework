@@ -1,6 +1,4 @@
-<div class="outer-w3-agile mt-3">
-			 <div id="chart_div"></div>
-			 </div>
+
             <div class="copyright-w3layouts py-xl-3 py-2 mt-xl-5 mt-4 text-center">
                 <p>© 2020 Soham Roy . All Rights Reserved | Design by
                     <a href=""> Maximus Technology Solutions</a>

@@ -6,15 +6,14 @@ import java.util.Set;
 public class MapValueAnalyzer {
 
 	// Bar Chart
-	public static void getMapValues(HashMap<String, HashMap<String,Object>> fileNameConstrains) {
+	public static void getMapValues(HashMap<String, HashMap<String,Object>> fileNameConstrains) throws InterruptedException {
 		Set keys = fileNameConstrains.keySet();
-		System.out.println("All keys are: " + keys);
+//		System.out.println("All keys are: " + keys);
 		Object[] arr = keys.toArray(); 
 		// To get all key: value
 		for (int i = 0; i < arr.length; i++) {
-			System.out.println(fileNameConstrains.get(arr[i]));
-			Set Subkeys = fileNameConstrains.get(arr[i]).keySet();
-			
+//			System.out.println(fileNameConstrains.get(arr[i]));
+			BarChartGenerationHelperClass.getBarChartByJSproperties(fileNameConstrains.get(arr[i]), arr[i].toString());
 		}
 	}
 

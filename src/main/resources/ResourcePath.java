@@ -13,5 +13,8 @@ public class ResourcePath {
 		public static String ningthFooter = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\Footer.txt";
 		public static String tenPieChart1 = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\PieChart1.txt";
 		public static String tenPieChart2 = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\PieChart2.txt";
-	
+		public static String elevenBarChart1 = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\BarChart1.txt";
+		public static String elevenBarChart2 = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\BarChart2.txt";
+		public static String elevenBarChart3 = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\BarChart3.txt";
+		public static String elevenBarChart4 = "E:\\ME as QA\\DashBoard_FrameWork\\Dynamic_DashBoard_Framework\\src\\main\\TXTforHTML\\BarChart4.txt";
 }

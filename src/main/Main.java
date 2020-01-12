@@ -40,17 +40,21 @@ public class Main {
 //		//6th close Card 
 		createHtmlHelper.appendTXTtoHTML(ResourcePath.sixCardcloser);
 		
+		// 7th Pie chart - Average
 		// Virtual Data Creation - Simulating The 9 Fields HAR value - PIE CHART GENERATION
 		MapValueAnalyzer.getSubMapValues(DataDictionary.getDataDictionary(), numberOfIteration);
 		
-		
-		// 7th Pie chart - Average
-		
-		
 		// 8th Script for BAR chart - Individual Analysis
 		
+		try {
+			MapValueAnalyzer.getMapValues(DataDictionary.getDataDictionary());
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		// 9th - Footer
 		createHtmlHelper.appendTXTtoHTML(ResourcePath.ningthFooter);
+		
+		
 	}
 
 }
